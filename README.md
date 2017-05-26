@@ -14,7 +14,7 @@ To extract our manually annotated MIMIC-III test data, you should have access to
 
 To extract the annotated test data, git clone this repository and run
 
-```python2.7 extract_test.py [path to NOTEEVENTS.csv]```
+```python2.7 extract_test.py [path to NOTEEVENTS.csv file from the MIMIC-III database]```
 
 from inside the directory. This script preprocesses the **NOTEEVENTS.csv** data and stores the preprocessed data in the file **mimic_preprocessed.txt**. It then extracts the annotated 
 test data, which is stored to the file **testcorpus.json** in four lists: correct replacements, misspellings, misspelling contexts, and line indices.

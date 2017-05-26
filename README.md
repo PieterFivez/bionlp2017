@@ -1,9 +1,5 @@
 This repository contains source code for the paper 'Unsupervised Context-Sensitive Spelling Correction for Clinical Free-Text with Word and Character N-Gram Embeddings', which will be presented at the [BioNLP Workshop at ACL 2017](http://www.aclweb.org/aclwiki/index.php?title=BioNLP_Workshop). The source code offered here contains a script to extract our manually annotated MIMIC-III data.
 
-# License
-
-MIT
-
 # Requirements
 
 * Python 2.7

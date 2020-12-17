@@ -4,13 +4,13 @@ This repository contains source code for the paper 'Unsupervised Context-Sensiti
 
 * Python 2.7
 
-To extract our manually annotated MIMIC-III test data, you should have access to the [MIMIC-III database](https://mimic.physionet.org).
+To extract our manually annotated MIMIC-III test data, you should have access to the [MIMIC-III v1.3 database](https://mimic.physionet.org). This should be v1.3 of the database, since the extraction script doesn't work anymore with later versions.
 
 # Extracting the annotated test data
 
 To extract the annotated test data, git clone this repository and run
 
-```python2.7 extract_test.py [path to NOTEEVENTS.csv file from the MIMIC-III database]```
+```python2.7 extract_test.py [path to NOTEEVENTS.csv file from the MIMIC-III v1.3 database]```
 
 from inside the directory. This script preprocesses the **NOTEEVENTS.csv** data and stores the preprocessed data in the file **mimic_preprocessed.txt**. It then extracts the annotated 
 test data, which is stored to the file **testcorpus.json** in four lists: correct replacements, misspellings, misspelling contexts, and line indices.
